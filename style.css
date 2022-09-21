@@ -6,6 +6,7 @@
 
 body {
     background-color: #eee;
+    font-family: 'Source Sans Pro'
 }
 
 .newspaper-container {
@@ -38,14 +39,14 @@ li {
     
 }
 
-nav {
-    border-top:2px #eee;
-    border-bottom:2px #eee;
+ul {
+    border-top: 1px #777;
+    border-bottom: 1px #777;
     font-family:'Source Sans Pro'
 }
 
 .more-articles {
-    display:inline-block;
+    display: inline-block;
     text-align: center;
 }
 
