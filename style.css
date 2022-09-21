@@ -42,25 +42,51 @@ header h1 {
     text-align: center;
 }
 
-li {
-    list-style-type:none;
-    margin:0px;
-    display:inline-block;
-    padding:5px;
-    
-}
-
-ul {
-    border-top: 1px solid #777;
-    border-bottom: 1px solid #777;
-    font-family:'Source Sans Pro'
-}
-
+/* smaller articles */
 .more-articles {
+    border-top:1px solid #eee;
     display: inline-block;
-    text-align: center;
+    /* text-align: center; */
 }
 
-h2 {
+.more-articles section {
+    display:inline-block;
+    width:44%;
+    margin: 0 1em;
+}
+
+.more-articles img {
+    width:100%;
+}
+
+.more-articles h4 {
     font-family:'Roboto Slab';
+    text-align:left;
+}
+
+/* navigation */
+
+nav {
+    border-top:1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding:5px 0;
+    margin: 1em 0;
+    position:sticky;
+    top:0;
+    background:white;
+}
+
+nav ul {
+    list-style:none;
+    margin:0;
+}
+
+nav li {
+    display:inline-block;
+    padding:0 0.5em;
+}
+
+nav a {
+    font-size:0.8em;
+    color:#777;
 }
